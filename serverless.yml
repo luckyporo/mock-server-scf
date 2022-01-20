@@ -1,0 +1,24 @@
+component: scf
+name: mock-server
+inputs:
+  name: mock-server
+  src:
+    src: ./src
+  type: web
+  runtime: Nodejs16.13
+  namespace: default
+  region: ap-shanghai
+  memorySize: 64
+  timeout: 3
+  # events:
+  #   - apigw:
+  #       parameters:
+  #         environment: release
+  #         protocols:
+  #           - http
+  #           - https
+  #         netTypes:
+  #           - OUTER
+  #         endpoints:
+  #           - path: /
+  #             method: ANY

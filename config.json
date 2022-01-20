@@ -1,0 +1,28 @@
+{
+    "serverless-cloud-function-application": {
+        "Chinese": {
+            "name": "mock server",
+            "description": "基于 json-server 的 mock 云函数应用",
+            "attention": "无",
+            "author": {
+                "name": "luckyporo"
+            }
+        },
+        "English": {
+            "name": "Nmock server",
+            "description": "A mock server for serverless applications based on json-server",
+            "attention": "None",
+            "author": {
+                "name": "luckyporo"
+            }
+        },
+        "runtime": "Nodejs16.13",
+        "type": "web",
+        "version": "1.0.0",
+        "tags": [
+            "WebFunc",
+            "Nodejs16.13",
+            "web"
+        ]
+    }
+}
